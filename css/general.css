@@ -1,0 +1,80 @@
+/** This is a comment ---------------------------
+
+--- 01 Typography System
+
+-- Font
+Roboto, sans-serif
+
+-- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44
+
+-- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph-default: 1.6
+
+-- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+-- Letter spacing
+-0.5 px
+-0.75 px
+
+--- 02 Colors
+
+Primary:
+- #DE3256 - Amaranth
+
+Secondary-Greys:
+- #1363F5 - Bluetiful
+
+Main-text-color:
+- #051A32 Oxford Blue
+
+Second-text-Color:
+- #838F9C Roman Silver
+
+Shades:
+- #D7DBE0 Gainsboro
+
+Tints:
+- #F2F3F5 Cultured
+
+Accents: N/A
+
+--- 03 Shadows
+--- 04 Border-radius
+--- 05 Whitespace
+
+--- 06 Grid System
+max-width: 1344px
+112px / 224px / 416px / 64px / 112px / 416px
+
+**/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	/* We'll use "rem" for responsive */
+	/* Our default size for font is 10px so it's easier to calculate to REM */
+	/* REM is equal to VALUE unit of MAIN parent size which is 62.6% = 16px */
+	/* So basically 1 REM is = to 16px */
+	/* Example, if you want to use 20px for the size, just divide it to 10px = REM is 2 */
+	/* You will be using 2rem instead of 20px */
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: #555;
+}

@@ -19,3 +19,5 @@ Dtectr is a tech startup company selling a video surveillance security camera (C
 -   Intelligent storage and download
 -   Customizable storage and backup duration
 -   Timeline view of footage
+
+![Sitemap](sitemap/dtector-sitemap.png)

@@ -144,6 +144,7 @@
 
 .about-section {
     padding: 4.8rem 0;
+    background-color: #838F9C;
 }
 
 .about-us-content {
@@ -151,6 +152,11 @@
 }
 
 .about-us-description {
-    font-size: 1.6rem;
-    line-height: 1.5;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #051a32;
 }
+
+/* --------------------------- */
+/* Featured in section */
+

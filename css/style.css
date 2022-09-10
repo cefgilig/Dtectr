@@ -1,28 +1,3 @@
-/* Hero section / Landing Page */
-.hero-section {
-    background-color: #f2f3f5;
-}
-
-.hero {
-    max-width: 134.4rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-    align-items: center;
-}
-
-.hero-description {
-    font-size: 1.8rem;
-    line-height: 1.6;
-}
-
-.hero-img {
-    width: 100%;
-}
-
 /* --- Header & Navigation */
 
 .header {
@@ -46,8 +21,11 @@
     gap: 3.2rem;
 }
 
+/* status of nav without the effects and default */
 .main-nav-link:link,
 .main-nav-link:visited {
+    position: relative;;
+    padding: 0 0.3rem;
     display: inline-block;
     text-decoration: none;
     color: #838F9C;
@@ -56,13 +34,107 @@
     transition: all 0.3s ease 0s;
 }
 
+/* hover bottom line effect */
+.main-nav-link::after {
+    content: "";
+    position: absolute;
+    background-color: #De3256;
+    height: 0.3rem;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+.main-nav-link:hover::after {
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+/* hover effect on text */
 .main-nav-link:hover,
 .main-nav-link:active {
     color: #De3256;
 }
 
+/* hover effect on the selected button */
 .main-nav-link.nav-cta:link,
-.main-nav-link.nva-cta:visited {
-    color: #fff;
-    background-color: #De3256;
+.main-nav-link.nav-cta:visited {
+    color: #De3256;
 }
+
+.main-nav-link.nav-cta:link:after,
+.main-nav-link.nav-cta:link:visited {
+    content: "";
+    position: absolute;
+    background-color: #De3256;
+    height: 0.3rem;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+	color: #De3256;
+}
+
+/* --------------------------- */
+/* Hero section / Landing Page */
+
+.hero-section {
+    background-color: #f2f3f5;
+}
+
+.hero {
+    max-width: 134.4rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+}
+
+.hero-text-box {
+    position: relative;
+    margin: 12rem 4rem;
+}
+
+.hero-description {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 2.8rem;
+    color: #051a32;
+}
+
+.hero-img {
+    width: 90%;
+}
+
+.hero-icon {
+    display: inline-block;
+    width: 4.2rem;
+    fill: #1363F5;
+}
+
+.hero-product-link {
+    position: absolute;
+    display: inline-block;
+    color: #051a32;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 1.5rem;
+    left: 5.2rem;
+}
+
+.hero-product-link:hover,
+.hero-product-link:active {
+    color: #De3256;
+    transition: all 0.3s ease 0s;
+}
+
+
+

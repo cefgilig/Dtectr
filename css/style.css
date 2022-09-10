@@ -145,3 +145,12 @@
 .about-section {
     padding: 4.8rem 0;
 }
+
+.about-us-content {
+    margin-top: 4rem;
+}
+
+.about-us-description {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}

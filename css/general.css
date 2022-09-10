@@ -6,7 +6,11 @@
 Roboto, sans-serif
 
 -- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44
+
+:: paragraph
+10 / 12 / 14 / 16
+:: header
+20 / 24 / 30 / 36 / 44 / 48 / 52
 
 -- Line heights
 Default: 1
@@ -77,4 +81,24 @@ body {
 	line-height: 1;
 	font-weight: 400;
 	color: #555;
+}
+
+/* --- Main divs */
+
+.container {
+	/* 1344px divided by 10 */
+	max-width: 134.4rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+}
+
+/* --- Headers */
+
+.heading-primary {
+	font-weight: 700;
+	letter-spacing: -0.5px;
+}
+
+.heading-primary {
+	font-size: 4.8rem;
 }

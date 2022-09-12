@@ -240,9 +240,18 @@
 }
 
 .mobile-feature-content {
-    padding-top: 4.8rem;
+    margin-top: 12.8rem;
+}
+
+.mobile-f-list {
+    padding: 3rem 0;
+}
+
+.mobile-f-list a {
+    color: #051a32;
+    font-size: 1.6rem;
 }
 
 .mobile-logo {
-    width: 30rem;
+    width: 60rem;
 }

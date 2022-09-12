@@ -230,3 +230,19 @@
     line-height: 1.6;
     color: #051a32;
 }
+
+/* --------------------------- */
+/* Mobile feature section */
+
+.mobile-feature-section {
+    padding: 4.8rem 0;
+    background-color: #f2f3f5;
+}
+
+.mobile-feature-content {
+    padding-top: 4.8rem;
+}
+
+.mobile-logo {
+    width: 30rem;
+}

@@ -83,6 +83,10 @@ body {
 	color: #555;
 }
 
+ul, li {
+	list-style-type: none;
+}
+
 /* --- Main divs */
 
 .container {
@@ -178,3 +182,4 @@ body {
 	font-weight: 500;
 	color: #051A32;
 }
+

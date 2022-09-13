@@ -203,7 +203,7 @@
 .feature-list {
     padding: 3rem 3.5rem;
     text-align: center;
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .feature-list:hover {
@@ -255,3 +255,36 @@
 .mobile-logo {
     width: 60rem;
 }
+
+/* --------------------------- */
+/* Pricing section */
+
+.sub-pricing-section {
+    padding: 4.8rem 0;
+    background-color: #E4E7EA;
+}
+
+.sub-price-content {
+    margin-top: 6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.sub-price-title,
+.sub-price-tag,
+.sub-price-tag-sp,
+.sub-price-attributes {
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.sub-price-tag span {
+    color: #De3256;
+    font-size: 1.8rem;
+}
+
+.sub-price-each-attribute {
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
+    color: #051a32;
+}
+

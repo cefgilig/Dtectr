@@ -170,21 +170,31 @@
     color: #051a32;
 }
 
+.feature-product-container {
+    border: 1px solid #1363F5;
+    margin: 6rem auto;
+    display: flex;
+    justify-content: end;
+}
+
 .feature-product-flex {
     display: flex;
     justify-content: end;
-    border: 1px solid #1363F5;
+    padding: 4rem 0;
+    border: 1px solid #051a32;
+    width: 85rem;
 }
 
-.feature-product {
+.feature-product-img {
     width: 60rem;
-    border: 1px solid #051a32
 }
 
 /* --------------------------- */
 /* Featured in section */
 
 .featured-in-section {
+    display: flex;
+    justify-content: end;
     padding: 9.8rem 0;
     background-color: #838F9C;
 }

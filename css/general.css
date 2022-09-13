@@ -95,7 +95,7 @@ ul, li, a {
 	/* 1344px divided by 10 */
 	max-width: 134.4rem;
 	padding: 0 3.2rem;
-	margin: 0 auto;
+	margin-inline: auto;
 }
 
 .grid {

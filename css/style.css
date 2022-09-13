@@ -140,11 +140,19 @@
     transition: all 0.3s ease 0s;
 }
 
+
+.about-section,
+.feature-section,
+.mobile-feature-section,
+.sub-pricing-section,
+.product-section {
+    padding-top: 4.8rem;
+}
+
 /* --------------------------- */
 /* About us section */
 
 .about-section {
-    padding: 4.8rem 0;
     background-color: #838F9C;
 }
 
@@ -192,7 +200,6 @@
 /* Feature section */
 
 .feature-section {
-    padding: 4.8rem 0;
     background-color: #f2f3f5;
 }
 
@@ -235,7 +242,6 @@
 /* Mobile feature section */
 
 .mobile-feature-section {
-    padding: 4.8rem 0;
     background-color: #f2f3f5;
 }
 
@@ -260,12 +266,15 @@
 /* Pricing section */
 
 .sub-pricing-section {
-    padding: 4.8rem 0;
     background-color: #E4E7EA;
 }
 
+.sub-price-container {
+    padding-bottom: 12rem;
+}
+
 .sub-price-content {
-    margin-top: 6rem;
+    margin-top: 4rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -289,10 +298,6 @@
     font-size: 1.8rem;
     font-weight: 500;
     color: #051a32;
-}
-
-.sub-price-tag-sp {
-    padding: 1rem 0;
 }
 
 .sub-price-tag-sp > span {

@@ -85,7 +85,7 @@
 
 .hero-section {
     background-color: #f2f3f5;
-    height: 100vh;
+    height: 80vh;
     padding: 2.8rem 0;
 }
 
@@ -279,12 +279,24 @@
 
 .sub-price-tag span {
     color: #De3256;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .sub-price-each-attribute {
     padding: 0.8rem 0;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
     color: #051a32;
 }
 
+.sub-price-tag-sp {
+    padding: 1rem 0;
+}
+
+.sub-price-tag-sp > span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #051a32;
+}

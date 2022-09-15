@@ -370,15 +370,8 @@ color: #051a32;
 /* --------------------------- */
 /* Accordion Section */
 
-.faqs-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20rem;
-}
-
-.faqs-accordion-item {
-    border-radius: .5rem;
+.faqs-section {
+    background-color: #f2f3f5;
 }
 
 .faqs-accordion-item hr {
@@ -388,8 +381,57 @@ color: #051a32;
 .faqs-accordion-link {
     font-size: 2.4rem;
     color: #051a32;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
+}
+
+.faqs-accordion-link h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.faqs-icon {
+    margin-bottom: -1rem;
+    padding: .5rem;
+}
+
+.faqs-accordion-link .faqs-icon-arrow-down {
+    display: none;
+}
+
+.faqs-answer p {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+/* --------------------------- */
+/* Where the for accordion action begin */
+
+/* hide answer */
+.faqs-answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+}
+
+/* pop up answer */
+.faqs-accordion-item:target .faqs-answer {
+    max-height: 10rem;
+}
+
+/* hide the arrow of pop up answer */
+.faqs-accordion-item:target .faqs-accordion-link .faqs-icon-arrow-up {
+    display: none;
+}
+
+/* show the arrow pointing down afer hiding the up arrow */
+.faqs-accordion-item:target .faqs-accordion-link .faqs-icon-arrow-down {
+    display: block;
 }

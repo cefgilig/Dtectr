@@ -148,7 +148,8 @@
 .feature-section,
 .mobile-feature-section,
 .sub-pricing-section,
-.product-section {
+.product-section,
+.faqs-section {
     padding-top: 4.8rem;
 }
 
@@ -364,4 +365,31 @@ color: #051a32;
     font-weight: 500;
     line-height: 1.5;
     text-transform: uppercase;
+}
+
+/* --------------------------- */
+/* Accordion Section */
+
+.faqs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20rem;
+}
+
+.faqs-accordion-item {
+    border-radius: .5rem;
+}
+
+.faqs-accordion-item hr {
+    border: 1px solid #051a32;
+}
+
+.faqs-accordion-link {
+    font-size: 2.4rem;
+    color: #051a32;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
 }

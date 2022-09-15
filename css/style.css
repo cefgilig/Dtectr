@@ -149,7 +149,8 @@
 .mobile-feature-section,
 .sub-pricing-section,
 .product-section,
-.faqs-section {
+.faqs-section,
+.contact-us {
     padding-top: 4.8rem;
 }
 
@@ -464,4 +465,29 @@ color: #051a32;
 /* show the arrow pointing down afer hiding the up arrow */
 .faqs-accordion-item:target .faqs-accordion-link .faqs-icon-arrow-down {
     display: block;
+}
+
+/* --------------------------- */
+/* Contact-us section */
+
+.contact-us-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-us-content {
+    max-width: 100rem;
+    display: flex;
+    gap: 17.6rem;
+    justify-content: flex-end;
+}
+
+.contact-us-phone {
+    background-color: red;
+    flex: 1;
+}
+
+.contact-us-email {
+    background-color: blue;
+    flex: 1;
 }

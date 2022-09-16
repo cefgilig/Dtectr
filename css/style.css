@@ -151,7 +151,8 @@
 .sub-pricing-section,
 .product-section,
 .faqs-section,
-.contact-us {
+.contact-us-section,
+footer {
     padding: 4.8rem 0;
 }
 
@@ -497,3 +498,25 @@ color: #051a32;
 
 /* --------------------------- */
 /* Footer */
+
+footer {
+    background-color: #1E1E1E;
+}
+
+.footer-section-flex {
+    display: flex;
+    max-width: 134.4rem;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.footer-first-column,
+.footer-second-column,
+.footer-third-column {
+    flex: 1 1 41rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}

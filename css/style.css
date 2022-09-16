@@ -261,19 +261,6 @@
 /* --------------------------- */
 /* Mobile feature section */
 
-/* .mobile-feature-section {
-    background-color: #f2f3f5;
-}
-
-.mobile-f-list {
-    padding: 3rem 0;
-}
-
-.mobile-f-list a {
-    color: #051a32;
-    font-size: 1.6rem;
-} */
-
 .mobile-feature-container {
     max-width: 134.4rem;
     margin-inline: auto;
@@ -317,16 +304,24 @@
 /* --------------------------- */
 /* Pricing section */
 
+.price-section-flex-container {
+    /* border: 1px solid #De3256; */
+    display: flex;
+	flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-between;
+    max-width: 134.4rem;
+    margin-inline: auto;
+}
+
 .sub-pricing-section {
     background-color: #E4E7EA;
 }
 
-.sub-price-container {
-    padding-bottom: 12rem;
-}
-
 .sub-price-content {
-    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 41.2rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 

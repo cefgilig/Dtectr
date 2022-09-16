@@ -147,11 +147,11 @@ ul, li, a {
 }
 
 .section-flex-container {
-    border: 1px solid #De3256;
+    /* border: 1px solid #De3256; */
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 134rem;
+    max-width: 134.4rem;
     margin-inline: auto;
 }
 

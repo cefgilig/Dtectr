@@ -145,32 +145,25 @@
 /* All section shared */
 
 .about-section,
+.featured-in-section,
 .feature-section,
 .mobile-feature-section,
 .sub-pricing-section,
 .product-section,
 .faqs-section,
 .contact-us {
-    padding-top: 4.8rem;
+    padding: 4.8rem 0;
 }
 
 /* --------------------------- */
 /* About us section */
-/* Share universal code for clean */
 
-.about-section {
-    background-color: #838F9C;
-}
-
-.about-us-content {
-    margin-top: -2rem;
-    padding-bottom: 4.8rem;
-}
-
-.about-us-description {
+.about-col-1,
+.about-col-2 {
     font-size: 1.8rem;
+    font-weight: 400;
     line-height: 1.6;
-    color: #051a32;
+    letter-spacing: 0.075rem;
 }
 
 /* --------------------------- */
@@ -178,11 +171,10 @@
 /* Featured in section */
 
 .featured-in-section {
-    padding: 4.8rem 0;
     background-color: #E4E7EA;
 }
 
-.featured-in-header {
+.featured-in-heading {
     font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: 0.75px;
@@ -196,6 +188,10 @@
 .featured-in-logos {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    row-gap: 5rem;
+    column-gap: 5rem;
 }
 
 .featured-in-logos img {
@@ -473,6 +469,7 @@ color: #051a32;
 .contact-us-container {
     /* border: 1px solid #De3256; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 134rem;
     margin-inline: auto;
@@ -503,6 +500,7 @@ color: #051a32;
     font-weight: 500;
     color: #De3256;
     text-transform: uppercase;
+    border: 1px solid #De3256;
 }
 
 .contact-us-phone,

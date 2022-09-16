@@ -223,6 +223,14 @@ ul, li, a {
 	font-weight: 400;
 }
 
+.secondary-text {
+	color: #F2F3F5;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	letter-spacing: 0.075rem;
+	font-weight: 400;
+}
+
 /* --- Button */
 
 .btn:link,
@@ -259,6 +267,10 @@ ul, li, a {
 }
 
 .icon-cta {
-	font-size: 2rem;
+	font-size: 2.4rem;
 	color: #De3256;
+}
+
+.icon-cta-social-media {
+	font-size: 2.8rem
 }

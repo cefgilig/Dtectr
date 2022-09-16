@@ -471,23 +471,53 @@ color: #051a32;
 /* Contact-us section */
 
 .contact-us-container {
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    border: 1px solid #De3256;
+    padding-bottom: 40rem;
 }
 
 .contact-us-content {
-    max-width: 100rem;
+    position: absolute;
+    right: 0;
     display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    border: 1px solid #051a32;
     gap: 17.6rem;
-    justify-content: flex-end;
+}
+
+.contact-us-phone,
+.contact-us-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+
 }
 
 .contact-us-phone {
-    background-color: red;
-    flex: 1;
+    width: 41.8rem;
 }
 
 .contact-us-email {
-    background-color: blue;
-    flex: 1;
+    width: 41.8rem;
+}
+
+.contact-us-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #De3256;
+}
+
+.contact-us-description {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 4.8rem;
+}
+
+.contact-icon {
+    font-size: 10.8rem;
+    color: #051a32;
 }

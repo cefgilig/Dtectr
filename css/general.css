@@ -67,6 +67,29 @@ max-width: 1344px
 	box-sizing: border-box;
 }
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
 html {
 	font-size: 62.5%;
 	/* We'll use "rem" for responsive */
@@ -82,7 +105,33 @@ body {
 	line-height: 1;
 	font-weight: 400;
 	color: #555;
+	text-rendering: optimizeSpeed;
 }
+
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+	 scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+	  animation-duration: 0.01ms !important;
+	  animation-iteration-count: 1 !important;
+	  transition-duration: 0.01ms !important;
+	  scroll-behavior: auto !important;
+	}
+  }
 
 ul, li, a {
 	list-style-type: none;
@@ -118,34 +167,6 @@ ul, li, a {
 
 .flex-col-400 {
 	width: 41.6rem;
-}
-
-/* ------------------- */
-
-.grid {
-	display: grid;
-	column-gap: 9.6rem;
-	row-gap: 9.6rem;
-}
-
-.grid--2-cols {
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-	grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-	grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--center--v {
-	align-items: center;
-}
-
-.grid--center-h {
-	justify-items: center;
 }
 
 /* --- Headers */

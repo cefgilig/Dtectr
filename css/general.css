@@ -161,6 +161,14 @@ ul, li, a {
 	text-transform: uppercase;
 }
 
+.sub-heading-i {
+    width: 11.2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #De3256;
+    text-transform: uppercase;
+}
+
 /* --- Button */
 
 .btn:link,

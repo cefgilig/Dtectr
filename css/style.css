@@ -282,6 +282,10 @@
     border: 1px solid #De3256;
 }
 
+.mobile-header-container {
+    border: 1px solid #1363F5;
+}
+
 .mobile-feature-col-1,
 .mobile-feature-col-2 {
     border: 1px solid #1363F5;
@@ -294,13 +298,20 @@
 }
 
 .mobile-f-list {
-
     font-size: 1.8rem;
     padding: 2rem 0;
 }
 
+/* --------------------------- */
+
+.mobile-feature-col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .mobile-logo {
-    width: 60rem;
+    width: 25rem;
 }
 
 /* --------------------------- */

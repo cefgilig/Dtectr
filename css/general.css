@@ -250,11 +250,15 @@ ul, li, a {
 
 /* --- Button-link */
 
-.link-btn {
-
-	text-decoration: none;
-	font-size: 1.2rem;
+.link-btn-cta {
+	font-size: 1.6rem;
 	font-weight: 500;
 	color: #051A32;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
+.icon-cta {
+	font-size: 2rem;
+	color: #De3256;
+}

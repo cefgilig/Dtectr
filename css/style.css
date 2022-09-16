@@ -509,43 +509,6 @@ color: #051a32;
 /* --------------------------- */
 /* Contact-us section */
 
-.contact-us-container {
-    /* border: 1px solid #De3256; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 134rem;
-    margin-inline: auto;
-}
-
-.contact-us-flex {
-    width: 100rem;
-    border: 1px solid #051a32;
-}
-
-.contact-us-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact-us-phone {
-    width: 41.8rem;
-}
-
-.contact-us-email {
-    width: 41.8rem;
-}
-
-.sub-heading-i {
-    width: 11.2rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #De3256;
-    text-transform: uppercase;
-    border: 1px solid #De3256;
-}
-
 .contact-us-phone,
 .contact-us-email {
     /* border: 1px solid #1363F5; */

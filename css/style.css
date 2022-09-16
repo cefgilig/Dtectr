@@ -261,12 +261,8 @@
 /* --------------------------- */
 /* Mobile feature section */
 
-.mobile-feature-section {
+/* .mobile-feature-section {
     background-color: #f2f3f5;
-}
-
-.mobile-feature-content {
-    margin-top: 12.8rem;
 }
 
 .mobile-f-list {
@@ -276,6 +272,31 @@
 .mobile-f-list a {
     color: #051a32;
     font-size: 1.6rem;
+} */
+
+.mobile-feature-container {
+    max-width: 134.4rem;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid #De3256;
+}
+
+.mobile-feature-col-1,
+.mobile-feature-col-2 {
+    border: 1px solid #1363F5;
+    flex: 1 1 59.9rem;
+}
+
+.mobile-feature-col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-f-list {
+
+    font-size: 1.8rem;
+    padding: 2rem 0;
 }
 
 .mobile-logo {

@@ -163,11 +163,13 @@ ul, li, a {
 	line-height: 1.05;
 	padding-top: 10rem;
 	margin-bottom: 3.2rem;
+	font-weight: 700;
 }
 
 .heading-secondary {
-	font-size: 3.4rem;
+	font-size: 3rem;
 	line-height: 1.2;
+	font-weight: 500;
 }
 
 .heading-tertiary {
@@ -180,7 +182,6 @@ ul, li, a {
 	display: block;
 	font-size: 1.2rem;
 	font-weight: 500;
-	margin-top: 2rem;
 	color: #De3256;
 	text-transform: uppercase;
 }
@@ -191,6 +192,14 @@ ul, li, a {
     font-weight: 500;
     color: #De3256;
     text-transform: uppercase;
+}
+
+.main-text {
+	color: #051A32;
+	font-size: 1.6rem;
+	line-height: 1.6;
+	letter-spacing: 0.075rem;
+	font-weight: 400;
 }
 
 /* --- Button */

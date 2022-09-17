@@ -442,12 +442,6 @@ color: #051a32;
     display: none;
 }
 
-.faqs-answer p {
-    font-size: 1.6rem;
-    line-height: 1.7;
-    font-weight: 500;
-}
-
 .faqs-cta {
     display: flex;
     align-items: center;

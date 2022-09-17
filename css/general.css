@@ -233,6 +233,8 @@ ul, li, a {
 	color: #051A32;
 }
 
+/* -------------------------- */
+
 .main-text {
 	color: #051A32;
 	font-size: 1.6rem;
@@ -241,12 +243,27 @@ ul, li, a {
 	letter-spacing: 0.095rem;
 }
 
-.secondary-text {
-	color: #F2F3F5;
+.secondary-main-text {
+	color: #051A32;
 	font-size: 1.4rem;
 	line-height: 1.7;
 	letter-spacing: 0.075rem;
 	font-weight: 400;
+}
+
+.tertiary-text {
+	color: #051A32;
+	font-size: 2.0rem;
+	font-weight: 400;
+	letter-spacing: 0.075rem;
+}
+
+.default-text {
+	color: #f2f3f5;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight: 400;
+	letter-spacing: 0.075rem;
 }
 
 /* --- Button */

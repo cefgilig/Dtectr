@@ -329,9 +329,29 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+.sub-price-title {
+    font-size: 3rem;
+    color: #De3256;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.065rem;
+}
+
+.sub-plan-price p {
+    font-size: 2.4rem;
+    color: #051a32;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.sub-plan-price span {
+    font-size: 2.0rem;
+    color: #f2f3f5;
+    background-color: #1363f5;
+    padding: 0.45rem 0.45rem;
+}
+
 .sub-price-title,
-.sub-price-tag,
-.sub-price-tag-sp,
 .sub-price-attributes,
 .sub-plan-price {
    padding: 2rem 4rem;
@@ -342,12 +362,6 @@ footer {
     font-size: 1.8rem;
     font-weight: 500;
     color: #051a32;
-}
-
-.sub-price-tag-sp > span {
-font-size: 1.4rem;
-font-weight: 500;
-color: #051a32;
 }
 
 /* --------------------------- */

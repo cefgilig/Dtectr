@@ -163,6 +163,13 @@ footer {
     padding: 4.8rem 0;
 }
 
+.about-content,
+.feature-content,
+.price-subs-content,
+.product-content {
+    margin-top: 3.8rem;
+}
+
 /* --------------------------- */
 /* About us section */
 
@@ -206,7 +213,7 @@ footer {
 }
 
 /* --------------------------- */
-/* Feature section */
+/* Pro section */
 
 .feature-section {
     background-color: #f2f3f5;
@@ -313,7 +320,7 @@ footer {
 /* --------------------------- */
 /* Pricing section */
 
-.price-section-flex-container {
+.price-subs-container {
     /* border: 1px solid #De3256; */
     display: flex;
 	flex-wrap: wrap;
@@ -372,6 +379,7 @@ color: #051a32;
 .feature-product-container {
     max-width: 134.4rem;
     margin-inline: auto;
+    margin-top: 3.8rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -386,6 +394,7 @@ color: #051a32;
 }
 
 .feature-product-img {
+    padding: 3rem 3rem;
     width: 60rem;
 }
 
@@ -393,6 +402,7 @@ color: #051a32;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3.8rem;
 }
 
 /* --------------------------- */
@@ -407,6 +417,14 @@ color: #051a32;
 }
 
 .faqs-section-container {
+    max-width: 134.4rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.8rem;
+}
+
+.faqs-column {
     display: flex;
     flex-direction: column;
 }
@@ -447,6 +465,7 @@ color: #051a32;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 3.8rem;
 }
 
 /* --------------------------- */

@@ -85,22 +85,51 @@
 
 .hero-section {
     background-color: #f2f3f5;
-    height: 100vh;
-    padding: 2.8rem 0;
 }
 
-.hero {
+.hero-container {
     max-width: 134.4rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #De3256;
+}
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #1363F5;
+}
+
+.hero-img-box {
+    display: flex;
+    justify-content: end;
+    border: 1px solid #1363F5;
+}
+
+.hero-text-container,
+.hero-img-box {
+    flex: 1 1 56.7rem;
+}
+
+.hero-img {
+    width: 80%;
+}
+
+.hero-icon-cta {
+    font-size: 24rem;
+    outline: #De3256;
+}
+
+.hero-cta {
+    display: flex;
     align-items: center;
 }
 
-.hero-text-box {
+/* .hero-text-box {
     position: relative;
     margin: 12rem 0;
 }
@@ -139,7 +168,7 @@
 .hero-product-link:active {
     color: #De3256;
     transition: all 0.3s ease 0s;
-}
+} */
 
 /* --------------------------- */
 /* All section shared */
@@ -159,13 +188,7 @@ footer {
 /* --------------------------- */
 /* About us section */
 
-.about-col-1,
-.about-col-2 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 0.075rem;
-}
+
 
 /* --------------------------- */
 

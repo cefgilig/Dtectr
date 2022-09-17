@@ -166,7 +166,8 @@ footer {
 .about-content,
 .feature-content,
 .price-subs-content,
-.product-content {
+.product-content,
+.contact-us-content {
     margin-top: 3.8rem;
 }
 
@@ -239,32 +240,15 @@ footer {
 /* Feature content in each column */
 
 .feature-icon {
-    height: 6.2rem;
-    width: 6.2rem;
+    font-size: 8rem;
     color: #051a32;
     margin: 2.4rem 0;
     border-radius: 50%;
 }
 
-.feature-title {
-    font-size: 2.8rem;
-    color: #051a32;
-    font-weight: 500;
-    margin: 1.6rem auto;
-}
-
-.feature-text {
-    font-size: 1.6rem;
-    line-height: 1.4;
-    font-weight: 400;
-    letter-spacing: 0.095rem;
-    color: #051a32;
-}
-
 .feature-list:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
-
 
 /* --------------------------- */
 /* Mobile feature section */
@@ -279,6 +263,10 @@ footer {
     flex-wrap: wrap;
     display: flex;
     /* border: 1px solid #De3256; */
+}
+
+.mobile-feature-list {
+    margin-top: 3.8rem;
 }
 
 .mobile-header-container {
@@ -457,7 +445,6 @@ color: #051a32;
 .faqs-answer p {
     font-size: 1.6rem;
     line-height: 1.7;
-    padding: 1rem;
     font-weight: 500;
 }
 
@@ -505,9 +492,11 @@ color: #051a32;
 .contact-us-email {
     /* border: 1px solid #1363F5; */
     display: flex;
+    padding: 2rem 2rem;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 /* --------------------------- */

@@ -94,13 +94,13 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 100vh;
 }
 
 .hero-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     gap: 1rem;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .hero-img {
-    width: 80%;
+    width: 90%;
 }
 
 .hero-cta {
@@ -223,7 +223,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex: 1 1 29.9rem;
     padding: 2rem 4rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -242,17 +242,16 @@ footer {
 .feature-title {
     font-size: 2.8rem;
     color: #051a32;
-    font-weight: 700;
+    font-weight: 500;
     margin: 1.6rem auto;
 }
 
 .feature-text {
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 1.4;
     font-weight: 400;
-    letter-spacing: .075rem;
+    letter-spacing: 0.095rem;
     color: #051a32;
-    text-align: center;
 }
 
 .feature-list:hover {

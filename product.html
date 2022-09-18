@@ -21,11 +21,28 @@
 <body>
 
     <section>
-        <ul>
-            <li>
-                <img src="img/product-img-1.png" alt="">
-            </li>
-        </ul>
+        <div class="carousel" data-carousel>
+
+            <button class="carousel-btn prev" data-carousel-button="prev">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+            <button class="carousel-btn next" data-carousel-button="next">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+
+            <ul data-slides>
+                <li class="slide-image" data-active>
+                    <img src="https://images.unsplash.com/photo-1663311587248-f87e414e2ca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </li>
+                <li class="slide-image">
+                    <img src="https://images.unsplash.com/photo-1663245353069-fb697d623e72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </li>
+                <li class="slide-image">
+                    <img src="https://images.unsplash.com/photo-1663130607398-625cb6730e21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </li>
+            </ul>
+
+        </div>
     </section>
 
     <script src="js/script.js"></script>

@@ -17,24 +17,32 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
 </head>
 
 <body>
 
-    <div class="container-flud">
-        <div class="row g-0">
-            <div class="col-md-9">
+    <div class="container">
+
+        <header>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+        </header>
+
+        <div class="row">
+            <div class="col-md-8">
                 <!-- Carousel wrapper -->
                 <div id="carouselMDExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-
                     <!-- Slides -->
                     <div class="carousel-inner mb-5 shadow-1-strong rounded-3">
-
                     <div class="carousel-item active">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(88).webp" class="d-block w-100" alt="..." />
                     </div>
-
                     <div class="carousel-item">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(121).webp" class="d-block w-100"
                         alt="..." />
@@ -77,47 +85,70 @@
                     </button>
                     </div>
                     <!-- Thumbnails -->
-
                 </div>
-                <!-- carousel-wrapper -->
             </div>
+            <!-- second-column -->
+            <div class="col-md-4">
 
-            <div class="col-md-3 sidenav">
-                <!-- <div class="position-fixed"> -->
-                    <div class="d-flex flex-column product-info-container">
-                        <h1>Model 001</h1>
-                        <div class="product-rating">
-                            <ion-icon size="small" name="star"></ion-icon>
-                            <ion-icon size="small" name="star"></ion-icon>
-                            <ion-icon size="small" name="star"></ion-icon>
-                            <ion-icon size="small" name="star"></ion-icon>
-                            <ion-icon size="small" name="star-half"></ion-icon>
-                        </div>
-
-                        <div class="product-pricing">
-                            <h2>Choose a plan</h2>
-
-                            <div class="product-plan-list">
-                                <span class="border border-2 border-primary">
-                                    <h3>Device Only</h3>
-                                </span>
-                                <span class="border border-2 border-primary">
-                                    <h3>With Subscription</h3>
-                                </span>
-                                <span class="border border-2 border-primary">
-                                    <h3>Storage</h3>
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="product-plan-benefits">
-                        </div>
+                <div class="product-list-header">
+                    <h1>Model - 001</h1>
+                    <div class="product-rating">
+                        <ion-icon name="star-sharp"></ion-icon>
+                        <ion-icon name="star-sharp"></ion-icon>
+                        <ion-icon name="star-sharp"></ion-icon>
+                        <ion-icon name="star-sharp"></ion-icon>
+                        <ion-icon name="star-half-sharp"></ion-icon>
                     </div>
-                <!-- </div> -->
+                </div>
+
+                <div class="product-select-plan">
+                    <h4>Select a plan?</h4>
+
+                    <div class="row product-select-list">
+                        <div class="col-md shadow-1">Device only</div>
+                        <div class="col-md shadow-1">With Subscription</div>
+                        <div class="col-md shadow-1">Three</div>
+                    </div>
+                </div>
+
+                <div class="product-subscription-benefits">
+                    <h4>Subscription Benefits</h4>
+
+                    <div class="row product-benefits-list">
+                        <ul class="col-md">
+                            <li class="col-md">More than 30 days recording</li>
+                        </ul>
+                        <ul class="col-md">
+                            <li class="col-md">Up to 100 GB Storage online</li>
+                        </ul>
+                    </div>
+
+                    <div class="row product-benefits-list">
+                        <ul class="col-md">
+                            <li class="col-md">More than 30 days recording</li>
+                        </ul>
+                        <ul class="col-md">
+                            <li class="col-md">More than 30 days recording</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="hr" />
+
+                <div class="product-total-price">
+                    <h2>Total</h2>
+                    <div class="h3 product-price">$398.22</div>
+                    <span>Product camera (with subscription)</span>
+                </div>
+
+                <div class="product-buy-button">
+                    <button type="button" class="btn btn-primary btn-lg">View Cart</button>
+                    <button type="button" class="btn btn-primary btn-lg">Buy Now</button>
+                </div>
             </div>
         </div>
-  </div>
-
+        <!-- end of row -->
+    </div>
+    <!-- end of container -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

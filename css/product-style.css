@@ -1,5 +1,16 @@
 .sidenav {
-  background-color: aqua;
+  background-color: #f2f3f5;
   height: 100vh;
   right: 0;
+}
+
+
+@media(max-width: 768px) {
+  .product-info-container {
+    border: 1px solid #f2f3f5;
+    margin-top: 3rem;
+    /* display: flex; */
+    width: 76.8rem;
+    padding: 2rem 2rem;
+  }
 }

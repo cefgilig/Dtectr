@@ -2,15 +2,35 @@
   background-color: #f2f3f5;
   height: 100vh;
   right: 0;
+
+}
+
+.product-info-container {
+  padding: 2rem 2rem;
 }
 
 
+
 @media(max-width: 768px) {
+
   .product-info-container {
     border: 1px solid #f2f3f5;
     margin-top: 3rem;
-    /* display: flex; */
-    width: 76.8rem;
+    padding: 2rem 2rem;
+  }
+
+  .product-pricing {
+    margin-top: 2.4rem;
+  }
+
+  .product-plan-list {
+    width: 46rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product-plan-list > span {
     padding: 2rem 2rem;
   }
 }

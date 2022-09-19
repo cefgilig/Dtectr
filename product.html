@@ -110,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="product-select-plan">
+                <!-- <div class="product-select-plan">
                     <h4>Select a plan?</h4>
 
                     <div class="row product-select-list">
@@ -140,6 +140,85 @@
                             <li class="col-md">More than 30 days recording</li>
                         </ul>
                     </div>
+                </div> -->
+
+                <ul class="nav nav-pills nav-fill mb-3" id="pills-tab2" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link active"
+                        id="pills-home-tab2"
+                        data-mdb-toggle="pill"
+                        data-mdb-target="#pills-home2"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-home"
+                        aria-selected="true"
+                      >
+                        Device Only
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="pills-profile-tab2"
+                        data-mdb-toggle="pill"
+                        data-mdb-target="#pills-profile2"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-profile"
+                        aria-selected="false"
+                      >
+                        Subscription
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="pills-contact-tab2"
+                        data-mdb-toggle="pill"
+                        data-mdb-target="#pills-contact2"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                      >
+                        Storage
+                      </button>
+                    </li>
+
+                </ul>
+
+                <!-- content -->
+                <div class="tab-content" id="pills-tabContent2">
+
+                    <div
+                        class="tab-pane fade show active"
+                        id="pills-home2"
+                        role="tabpanel"
+                        aria-labelledby="pills-home-tab2"
+                    >
+                        Tab 1 content
+                    </div>
+
+                    <div
+                        class="tab-pane fade"
+                        id="pills-profile2"
+                        role="tabpanel"
+                        aria-labelledby="pills-profile-tab2"
+                    >
+                        Tab 2 content
+                    </div>
+
+                    <div
+                        class="tab-pane fade"
+                        id="pills-contact2"
+                        role="tabpanel"
+                        aria-labelledby="pills-contact-tab2"
+                    >
+                        Tab 3 content
+                    </div>
+
                 </div>
 
                 <hr class="hr" />
@@ -150,19 +229,22 @@
                     <span>Product camera (with subscription)</span>
                 </div>
 
-                <div class="product-buy-button">
+                <div class="d-flex flex-column product-buy-button">
                     <button type="button" class="btn btn-primary btn-lg">View Cart</button>
                     <button type="button" class="btn btn-primary btn-lg">Buy Now</button>
                 </div>
 
-                <div class="d-flex" product-shipping">
+                <div class="d-flex product-shipping">
+
                     <div>
-                        <ion-icon class="g-col-4 icon-cta" name="airplane"></ion-icon>
+                        <ion-icon class="product-shipping-description plane-icon" size="small" name="airplane"></ion-icon>
                     </div>
-                    <div class="d-flex flex-column g-col">
+
+                    <div class="d-flex flex-column g-col product-shipping-description">
                         <h4 class="">Free Shipping Nationwide!</h4>
                         <span class="">Delivery 5-7 days</span>
                     </div>
+
                 </div>
 
                 <hr class="hr" />
@@ -180,96 +262,100 @@
         </div>
         <!-- end of row -->
         <div class="container product-attributes">
-                <hr class="hr" />
-                <!-- Tabs navs -->
-                <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
-                <li class="nav-item" role="presentation">
-                <a
-                    class="nav-link active"
-                    id="ex1-tab-1"
-                    data-mdb-toggle="tab"
-                    href="#ex1-tabs-1"
-                    role="tab"
-                    aria-controls="ex1-tabs-1"
-                    aria-selected="true"
-                    >Product Details</a
-                >
-                </li>
-                <li class="nav-item" role="presentation">
-                <a
-                    class="nav-link"
-                    id="ex1-tab-2"
-                    data-mdb-toggle="tab"
-                    href="#ex1-tabs-2"
-                    role="tab"
-                    aria-controls="ex1-tabs-2"
-                    aria-selected="false"
-                    >Specification</a
-                >
-                </li>
-                <li class="nav-item" role="presentation">
-                <a
-                    class="nav-link"
-                    id="ex1-tab-3"
-                    data-mdb-toggle="tab"
-                    href="#ex1-tabs-3"
-                    role="tab"
-                    aria-controls="ex1-tabs-3"
-                    aria-selected="false"
-                    >What's in the box</a
-                >
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a
-                        class="nav-link"
-                        id="ex1-tab-4"
-                        data-mdb-toggle="tab"
-                        href="#ex1-tabs-4"
-                        role="tab"
-                        aria-controls="ex1-tabs-4"
-                        aria-selected="false"
-                        >Manual</a
-                    >
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a
-                        class="nav-link"
-                        id="ex1-tab-5"
-                        data-mdb-toggle="tab"
-                        href="#ex1-tabs-5"
-                        role="tab"
-                        aria-controls="ex1-tabs-5"
-                        aria-selected="false"
-                        >Reviews</a
-                    >
-                </li>
-            </ul>
-            <!-- Tabs navs -->
+            <div class="row">
+                <div class="col-md-8">
+                    <hr class="hr" />
+                    <!-- Tabs navs -->
+                    <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                        <a
+                            class="nav-link active"
+                            id="ex1-tab-1"
+                            data-mdb-toggle="tab"
+                            href="#ex1-tabs-1"
+                            role="tab"
+                            aria-controls="ex1-tabs-1"
+                            aria-selected="true"
+                            >Product Details</a
+                        >
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <a
+                            class="nav-link"
+                            id="ex1-tab-2"
+                            data-mdb-toggle="tab"
+                            href="#ex1-tabs-2"
+                            role="tab"
+                            aria-controls="ex1-tabs-2"
+                            aria-selected="false"
+                            >Specification</a
+                        >
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <a
+                            class="nav-link"
+                            id="ex1-tab-3"
+                            data-mdb-toggle="tab"
+                            href="#ex1-tabs-3"
+                            role="tab"
+                            aria-controls="ex1-tabs-3"
+                            aria-selected="false"
+                            >What's in the box</a
+                        >
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a
+                                class="nav-link"
+                                id="ex1-tab-4"
+                                data-mdb-toggle="tab"
+                                href="#ex1-tabs-4"
+                                role="tab"
+                                aria-controls="ex1-tabs-4"
+                                aria-selected="false"
+                                >Manual</a
+                            >
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a
+                                class="nav-link"
+                                id="ex1-tab-5"
+                                data-mdb-toggle="tab"
+                                href="#ex1-tabs-5"
+                                role="tab"
+                                aria-controls="ex1-tabs-5"
+                                aria-selected="false"
+                                >Reviews</a
+                            >
+                        </li>
+                    </ul>
+                    <!-- Tabs navs -->
 
-            <!-- Tabs content -->
-            <div class="tab-content" id="ex1-content">
-                <div
-                class="tab-pane fade show active"
-                id="ex1-tabs-1"
-                role="tabpanel"
-                aria-labelledby="ex1-tab-1"
-                >
-                Tab 1 content
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-                Tab 2 content
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-                Tab 3 content
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-4" role="tabpanel" aria-labelledby="ex1-tab-4">
-                Tab 4 content
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-5" role="tabpanel" aria-labelledby="ex1-tab-5">
-                Tab 5 content
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="ex1-content">
+                            <div
+                            class="tab-pane fade show active"
+                            id="ex1-tabs-1"
+                            role="tabpanel"
+                            aria-labelledby="ex1-tab-1"
+                            >
+                            Tab 1 content
+                            </div>
+                            <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                            Tab 2 content
+                            </div>
+                            <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                            Tab 3 content
+                            </div>
+                            <div class="tab-pane fade" id="ex1-tabs-4" role="tabpanel" aria-labelledby="ex1-tab-4">
+                            Tab 4 content
+                            </div>
+                            <div class="tab-pane fade" id="ex1-tabs-5" role="tabpanel" aria-labelledby="ex1-tab-5">
+                            Tab 5 content
+                            </div>
+                        </div>
+                        <!-- Tabs content -->
                 </div>
             </div>
-            <!-- Tabs content -->
         </div>
         <!-- end of container -->
     </div>

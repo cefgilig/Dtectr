@@ -141,7 +141,6 @@ ul, li, a {
 }
 
 .section-flex-container {
-    /* border: 1px solid #De3256; */
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
@@ -196,7 +195,6 @@ ul, li, a {
 	line-height: 1.2;
 	font-weight: 500;
 	padding: 1.6rem 0;
-	color: #De3256;
 }
 
 /* -------------------- */
@@ -205,14 +203,12 @@ ul, li, a {
 	font-size: 1.2rem;
 	font-weight: 500;
 	line-height: 1.5;
-	color: #De3256;
 	text-transform: uppercase;
 }
 
 .tertiary-sub-heading {
 	font-size: 2rem;
 	font-weight: 500;
-	color: #De3256;
 	text-transform: uppercase;
 	line-height: 1.5;
 	letter-spacing: 0.065rem;
@@ -236,7 +232,6 @@ ul, li, a {
 /* -------------------------- */
 
 .main-text {
-	color: #051A32;
 	font-size: 1.6rem;
 	line-height: 1.6;
 	font-weight: 400;
@@ -244,7 +239,6 @@ ul, li, a {
 }
 
 .secondary-main-text {
-	color: #051A32;
 	font-size: 1.4rem;
 	line-height: 1.7;
 	letter-spacing: 0.075rem;
@@ -252,7 +246,6 @@ ul, li, a {
 }
 
 .tertiary-text {
-	color: #051A32;
 	font-size: 2.0rem;
 	font-weight: 400;
 	letter-spacing: 0.075rem;
@@ -303,7 +296,6 @@ ul, li, a {
 
 .icon-cta {
 	font-size: 2.4rem;
-	color: #De3256;
 }
 
 .icon-cta-social-media {

@@ -28,4 +28,9 @@ Dtectr is a tech startup company selling a video surveillance security camera (C
 
 [Site Layout](https://github.com/ggcldev/Dtectr/tree/main/page-layout)
 
+### Technology used
+-   Vanilla HTML/CSS
+-   Vanilla JS on smooth-scrolling
+-   Bootstrap (For the Product external page)
+
 #### This is a group project that will be submitted Sept 19th, 2022 - Kodego

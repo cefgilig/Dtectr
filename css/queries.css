@@ -194,7 +194,7 @@
     /* --------------------------- */
 
     .main-text {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 1.7;
         letter-spacing: 0.075;
     }
@@ -237,5 +237,57 @@
 
     .footer-first-column, .footer-second-column, .footer-third-column {
         flex: 1 1 43.9rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .hero-container {
+        background-color: cadetblue;
+    }
+
+    .heading-primary {
+        font-size: 5.2rem;
+    }
+
+    .featured-in-logos img {
+        height: 1.8rem;
+    }
+
+    .heading-secondary {
+        font-size: 3.8rem;
+    }
+
+    .sub-heading {
+        font-size: 2.2rem;
+    }
+    .flex-col-400 {
+        width: 28.6rem;
+    }
+    .main-text {
+        line-height: 1.7rem;
+        letter-spacing: 0.025rem;
+    }
+
+    .main-col-width {
+        width: 47rem;
+    }
+
+    .product-content-flex {
+        width: 62rem;
+    }
+    .faqs-section-flex {
+        max-width: 62rem;
+    }
+    .tertiary-sub-heading {
+        font-size: 3rem;
+    }
+    .default-text {
+        font-size: 1.8rem;
+    }
+    .icon-cta-social-media {
+        font-size: 4.2rem;
+    }
+    .contat-us-content {
+        display: flex;
     }
 }

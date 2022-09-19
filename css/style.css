@@ -9,6 +9,7 @@
     background-color: #f2f3f5;
     position: fixed;
     width: 100%;
+    transition: all ease-in-out 0.5s;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
@@ -272,20 +273,15 @@ footer {
     margin-inline: auto;
     flex-wrap: wrap;
     display: flex;
-    /* border: 1px solid #De3256; */
 }
 
 .mobile-feature-list {
     margin-top: 3.8rem;
 }
 
-.mobile-header-container {
-    /* border: 1px solid #1363F5; */
-}
 
 .mobile-feature-col-1,
 .mobile-feature-col-2 {
-    /* border: 1px solid #1363F5; */
     flex: 1 1 59.9rem;
 }
 
@@ -323,7 +319,6 @@ footer {
 }
 
 .price-subs-container {
-    /* border: 1px solid #De3256; */
     display: flex;
 	flex-wrap: wrap;
     gap: 4rem;

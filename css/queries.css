@@ -1,4 +1,4 @@
-@media (max-width: 79em) {
+@media (max-width: 89em) {
 
     .featured-in-logos {
         row-gap: 3rem;
@@ -6,10 +6,41 @@
     }
 
     .main-col-width {
-        width: 84rem;
+        width: 100rem;
     }
 
     .hero-container {
         background-color: aqua;
     }
+
+    .feature-list {
+        flex: 1 1 26.9rem;
+        padding: 2rem 2rem;
+    }
+
+     .sub-plan-content {
+        flex: 1 1 37.9rem;
+    }
+
+    .footer-first-column, .footer-second-column, .footer-third-column {
+        flex: 1 1 40.6rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+/*
+    .product-container-flex {
+        padding: 0 5.5rem;
+    }
+
+    .faqs-section-container {
+        max-width: 105.4rem;
+    }
+
+    .footer-first-column, .footer-second-column, .footer-third-column {
+        flex: 1 1 34.6rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    } */
 }

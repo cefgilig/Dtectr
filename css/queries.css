@@ -42,5 +42,200 @@
         display: flex;
         flex-direction: column;
         row-gap: 3rem;
-    } */
+    }
+
+*/
+}
+
+@media (max-width: 77em) {
+    .hero-container {
+        background-color:blueviolet;
+    }
+
+    .main-col-width {
+        width: 84rem;
+    }
+
+    .feature-list {
+        flex: 1 1 22.9rem;
+        padding: 1rem 1rem;
+    }
+
+    .feature-content-container {
+        gap: 2rem;
+    }
+
+    .mobile-feature-col-1,
+    .mobile-feature-col-2 {
+        flex: 1 1 51.9rem;
+    }
+
+    .sub-plan-content {
+        flex: 1 1 31.9rem;
+    }
+
+    .product-container-flex {
+        padding: 0 5.5rem;
+    }
+
+    .contact-us-phone,
+    .contact-us-email {
+        padding: 1rem 1rem;
+    }
+
+    .product-container-flex {
+        padding: 0 5.5rem;
+    }
+
+    .faqs-section-container {
+        max-width: 105.4rem;
+    }
+
+    .footer-first-column, .footer-second-column, .footer-third-column {
+        flex: 1 1 33.9rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+}
+
+@media (max-width: 62em) {
+
+    .header {
+        padding: 1.8rem 3.8rem;
+    }
+
+    .main-nav-link::after {
+        bottom: -7px;
+    }
+
+    .main-nav-link.nav-cta:link:after,
+    .main-nav-link.nav-cta:link:visited {
+        bottom: -7px;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 1rem;
+    }
+
+    .btn:link,
+    .btn:visited {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 1rem;
+        border-radius: 9px;
+    }
+
+    .hero-container {
+        background-color:bisque;
+    }
+
+    .logo {
+        height: 9rem;
+    }
+
+    .heading-primary {
+        font-size: 4.2rem;
+        margin-top: 10rem;
+    }
+
+    .heading-sub-primary {
+        font-size: 2.2rem;
+    }
+
+    .main-header-text {
+        font-size: 1.6rem;
+    }
+
+    .hero-img-box {
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-img {
+        width: 70%;
+    }
+
+    .hero-icon-cta {
+        font-size: 3.8rem;
+    }
+
+    .hero-cta-button {
+        padding: 0.6rem 0.6rem;
+    }
+
+    .hero-cta-button >a {
+        font-size: 1.2rem;
+    }
+
+    /* ----------------------- */
+
+    .featured-in-logos {
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    .featured-in-logos img {
+        height: 2.2rem;
+    }
+
+    /* -------------------------- */
+
+    .main-col-width {
+        width: 74rem;
+    }
+
+    .flex-col-400 {
+        width: 33.6rem;
+    }
+
+    /* --------------------------- */
+
+    .main-text {
+        font-size: 1.4rem;
+        line-height: 1.7;
+        letter-spacing: 0.075;
+    }
+
+     /* --------------------------- */
+
+     .feature-list {
+        flex: 1 1 26rem;
+        padding: 2rem 3rem;
+     }
+
+     /* ---------------------------- */
+
+     .mobile-feature-col-1, .mobile-feature-col-2 {
+        flex: 1 1 38.9rem;
+    }
+    /* ---------------------------------- */
+
+    .sub-plan-content {
+        flex: 1 1 38.9rem;
+    }
+
+    .sub-price-title, .sub-price-attributes, .sub-plan-price {
+        padding: 1rem 2rem;
+    }
+
+    /* ---------------------------------- */
+
+    .product-container-flex {
+        padding: 0 0.5rem;
+    }
+
+    /* --------------------------------------- */
+
+    .faqs-section-flex {
+        max-width: 85rem;
+    }
+
+    /* ------------------------------------------- */
+
+    .footer-first-column, .footer-second-column, .footer-third-column {
+        flex: 1 1 43.9rem;
+    }
 }

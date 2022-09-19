@@ -202,6 +202,16 @@ ul, li, a {
 
 /* -------------------- */
 
+.color-main {
+	color: #051A32;
+}
+
+.color-header-main {
+	color: #De3256;
+}
+
+/* -------------------- */
+
 .sub-heading {
 	font-size: 1.2rem;
 	font-weight: 500;

@@ -182,7 +182,6 @@ footer {
 	padding: 0 4.8rem;
 }
 
-
 /* --------------------------- */
 /* About us section */
 
@@ -191,7 +190,6 @@ footer {
 }
 
 /* --------------------------- */
-
 /* Featured in section */
 
 .featured-in-section {
@@ -207,8 +205,6 @@ footer {
     margin-bottom: 3.4rem;
     color: #051a32;
 }
-
-/* make flex, to inline and spacea around */
 
 .featured-in-logos {
     display: flex;
@@ -226,7 +222,7 @@ footer {
 }
 
 /* --------------------------- */
-/* Pro section */
+/* Feature section */
 
 .feature-section {
     background-color: #f2f3f5;
@@ -244,7 +240,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    flex: 1 1 29.9rem;
+    flex: 1 1 27.9rem;
     padding: 2rem 4rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
@@ -337,7 +333,7 @@ footer {
 .sub-plan-content {
     display: flex;
     flex-direction: column;
-    flex: 1 1 41.2rem;
+    flex: 1 1 38.9rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -383,20 +379,28 @@ footer {
     background-color: #f2f3f5;
 }
 
-.feature-product-container {
+.product-container-flex {
     max-width: 134.4rem;
     margin-inline: auto;
-    margin-top: 3.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.product-container-flex {
+    display: flex;
+    padding: 0 10.8rem;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.product-content-flex {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-}
-
-.feature-product-container-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    width: 90rem;
+    margin-top: 3.8rem;
     border: 1px solid #051a32;
 }
 
@@ -409,8 +413,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3.8rem;
+    margin-top: 2.8rem;
 }
+
 
 /* --------------------------- */
 /* Faqs Section */
@@ -424,11 +429,15 @@ footer {
 }
 
 .faqs-section-container {
-    max-width: 134.4rem;
+    max-width: 112.4rem;
     margin-inline: auto;
     display: flex;
     justify-content: flex-end;
-    margin-top: 3.8rem;
+    align-items: flex-end;
+}
+
+.faqs-section-flex {
+    max-width: 90rem;
 }
 
 .faqs-column {

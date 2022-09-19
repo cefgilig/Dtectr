@@ -143,6 +143,7 @@ ul, li, a {
 }
 
 .section-flex-container {
+	padding: 0 4.8rem;
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
@@ -156,7 +157,7 @@ ul, li, a {
 
 .main-col-content-flex {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 

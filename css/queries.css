@@ -1,0 +1,15 @@
+@media (max-width: 79em) {
+
+    .featured-in-logos {
+        row-gap: 3rem;
+        column-gap: 3rem;
+    }
+
+    .main-col-width {
+        width: 84rem;
+    }
+
+    .hero-container {
+        background-color: aqua;
+    }
+}

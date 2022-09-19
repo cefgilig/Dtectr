@@ -295,4 +295,13 @@
     .mobile-feature-section {
         padding-top: 1rem;
     }
+
+    .container {
+        padding: 0 0.8rem;
+    }
+
+    .mobile-feature-container {
+        padding: 0.8rem 0.8rem;
+    }
+
 }

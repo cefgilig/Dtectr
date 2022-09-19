@@ -25,6 +25,7 @@ Dtectr is a tech startup company selling a video surveillance security camera (C
 
 ### Wireframes and Site layout folders
 [Wireframe](https://github.com/ggcldev/Dtectr/tree/main/wireframe)
+
 [Site Layout](https://github.com/ggcldev/Dtectr/tree/main/page-layout)
 
-
+#### This is a group project that will be submitted Sept 19th, 2022 - Kodego

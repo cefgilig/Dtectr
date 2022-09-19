@@ -138,6 +138,7 @@ ul, li, a {
 .container {
 	/* 1344px divided by 10 */
 	max-width: 134.4rem;
+	padding: 0 4.8rem;
 	margin-inline: auto;
 }
 

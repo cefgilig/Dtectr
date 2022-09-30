@@ -1,0 +1,28 @@
+.product-select-list > div {
+  padding: 1.4rem 1.4rem;
+}
+
+.product-attributes {
+  margin-top: 6.8rem;
+}
+
+.product-select-plan,
+.product-subscription-benefits,
+.product-benefits-list,
+.product-total-price,
+.product-buy-button,
+.product-shipping-description {
+  padding-top: 2rem;
+}
+
+.plane-icon {
+  padding-right: 0.65rem;
+}
+
+.product-extras > ul > li {
+  padding-top: 1rem;
+}
+
+.product-buy-button {
+  gap: 2rem;
+}

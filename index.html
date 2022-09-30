@@ -5,7 +5,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Dtectr - Redifining Security</title>
+		<title>Dtectr - Redefining Security</title>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +16,7 @@
     
 		<link rel="stylesheet" href="css/general.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/queries.css" />
 
 	</head>
 	<body>
@@ -27,33 +28,39 @@
 
 			<nav class="main-nav">
 				<ul class="main-nav-list">
-					<li><a href="#" class="main-nav-link nav-cta">Home</a></li>
-					<li><a href="#" class="main-nav-link">About</a></li>
-					<li><a href="#" class="main-nav-link">Features</a></li>
-					<li><a href="#" class="main-nav-link">Pricing</a></li>
-					<li><a href="#" class="main-nav-link">Product</a></li>
-					<li><a href="#" class="main-nav-link">Support</a></li>
+					<li><a href="#hero" class="scroll main-nav-link nav-cta">Home</a></li>
+					<li><a href="#about" class="scroll main-nav-link">About</a></li>
+					<li><a href="#feature" class="scroll main-nav-link">Features</a></li>
+					<li><a href="#price" class="scroll main-nav-link">Pricing</a></li>
+					<li><a href="#product" class="scroll main-nav-link">Product</a></li>
+					<li><a href="#faqs" class="scroll main-nav-link">Support</a></li>
 				</ul>
 			</nav>
-			<a href="#" class="btn btn--full">Buy Now</a>
+
+			<a href="product.html" class="btn btn--full">Buy Now</a>
 		</header>
 
 		<main>
 			<!-- ----------------------------------------------------------------------------------- -->
 			<!-- Landing page / Hero section -->
-			<section class="hero-section">
-				<div class="hero">
+			<section id="hero" class="hero-section">
+				<div class="hero-container">
 
-					<div class="hero-text-box">
+					<div class="hero-text-container">
 						<h1 class="heading-primary">
-							Redifining Security
+							Redefining Security
 						</h1>
 
-						<p class="hero-description">These cameras are connected to the home network and they record everything happening inside the house. The footage is stored on the cloud server and can be accessed anytime via the internet.</p>
+						<h2 class="heading-sub-primary">Intelligently modern. Secure your home and your mind.</h2>
 
-						<svg class="hero-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM297 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L120 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l214.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L409 239c9.4 9.4 9.4 24.6 0 33.9L297 385z"/></svg>
+						<p class="hero-description header-main-text">Our easy-to-install CCTV systems will watch over your home while you’re away. Powered by AI to spot and capture only important activity, and supported by the cloud so you can securely access your footage anytime.</p>
 
-						<a href="#" class="hero-product-link">View the product</a>
+						<div class="hero-cta">
+							<ion-icon class="hero-icon-cta" name="play"></ion-icon>
+							<span class="hero-cta-button">
+								<a href="#">View more</a>
+							</span>
+						</div>
 					</div>
 					<!-- end of hero-text-box -->
 
@@ -62,53 +69,16 @@
 					</div>
 
 				</div>
-				<!-- end-of-hero-class -->
+				<!-- end-of-hero-container -->
 			</section>
 			<!-- end-of-hero-section -->
-
-			<!-- ----------------------------------------------------------------------------------- -->
-			<!-- About us section -->
-			<section class="about-section">
-				<!-- Full width of 1344px - about us header -->
-				<div class="container">
-					<h2 class="heading-secondary">What's up with us?</h2>
-					<h2 class="heading-secondary">Nothing personal</h2>
-				</div>
-
-
-				<div class="section-flex-container">
-
-					<span class="sub-heading-i">About Us</span>
-
-					<div class="main-col-width">
-
-						<div class="main-col-content-flex">
-
-							<p class="flex-col-400 about-col-1">
-								Dtectr is a tech startup company selling a video surveillance security camera (CCTV) with the option for online cloud storage. Currently, Dtectr is focused on one product model and one subscription plan with the goal of earning customers’ trust as a secure and reliable seller of CCTVs</p>
-
-
-							<p class="flex-col-400 about-col-2">
-								Dtectr is a tech startup company selling a video surveillance security camera (CCTV) with the option for online cloud storage. Currently, Dtectr is focused on one product model and one subscription plan with the goal of earning customers’ trust as a secure and reliable seller of CCTVs
-								<br><br>
-								Dtectr is a tech startup company selling a video surveillance security camera (CCTV) with the option for online cloud storage. Currently, Dtectr is focused on one product model and one subscription plan with the goal of earning customers’ trust as a secure and reliable seller of CCTVs
-							</p>
-
-						</div>
-						<!-- end of main-column-content -->
-					</div>
-					<!-- end of main-column-width -->
-				</div>
-				<!-- end of flex container -->
-			</section>
-			<!-- end of about-us-section -->
 
 			<!-- ----------------------------------------------------------------------------------- -->
 			<!-- Featured in section -->
 			<section class="featured-in-section">
 
 				<!-- Full width of 1344px -->
-				<div class="container">
+				<div class="container featured-in-container">
 
 					<h2 class="featured-in-heading">As featured in</h2>
 
@@ -127,63 +97,91 @@
 			<!-- end-of-featured-in-section -->
 
 			<!-- ----------------------------------------------------------------------------------- -->
+			<!-- About us section -->
+			<section id="about" class="about-section">
+				<!-- Full width of 1344px - about us header -->
+				<div class="container">
+					<h2 class="heading-secondary">How we started</h2>
+					<h2 class="heading-secondary">to redefine</h2>
+				</div>
+
+				<div class="about-container about-content section-flex-container">
+
+					<span class="sub-heading color-header-main">About Us</span>
+
+					<div class="main-col-width">
+
+						<div class="main-col-content-flex">
+
+							<p class="main-text color-main flex-col-400">
+								Our company was founded with a vision: to reimagine the meaning of privacy and security in our communities’ lives. Our goal is to create security camera systems that are adaptable, intelligent and dependable. We harness the power of AI and the cloud to accomplish this.</p>
+
+
+							<p class="main-text color-main flex-col-400">
+								We believe in perfecting our line one offering at a time because we take your privacy and security seriously. This allows us to guarantee the best product, service and customer support without compromising your experience.
+								<br><br>
+								Your home security and data privacy should be the least of your worries. Let Dtectr handle it.
+							</p>
+
+						</div>
+						<!-- end of main-column-content -->
+					</div>
+					<!-- end of main-column-width -->
+				</div>
+				<!-- end of flex container -->
+			</section>
+			<!-- end of about-us-section -->
+
 			<!-- Feature section -->
-			<section class="feature-section">
+			<section id="feature" class="feature-section">
 
 				<!-- Full width of 1344px -->
 				<!-- Header for Features section -->
-				<div class="container">
+				<div class="feature-container container">
 
-					<h2 class="heading-secondary">What we can offer you</h2>
-					<h2 class="heading-secondary">Better Security</h2>
+					<h2 class="heading-secondary">Smart security solutions.</h2>
+					<h2 class="heading-secondary main-heading-bot">Design to work for you.</h2>
 
-					<span class="sub-heading">Features</span>
+					<span class="sub-heading color-header-main">Features</span>
 				</div>
 				<!-- end of header features-section container -->
 
 				<!-- Full width of 1344px -->
 				<!-- Content for Features section -->
-				<div class="feature-section-container-flex">
+				<div class="feature-container feature-content container">
 
 					<div class="feature-content-container">
 
 						<div class="feature-list">
-							<ion-icon class="feature-icon" name="expand-outline"></ion-icon>
-							<p class="feature-title">You</p>
-							<p class="feature-text">
-								Stay on top of all of your
-								monitors and never miss
-								another opportunity.
+							<ion-icon class="feature-icon" name="videocam"></ion-icon>
+							<p class="heading-tertiary color-header-main">Full HD</p>
+							<p class="main-text color-main">
+								Make the most of wireless camera technology today. Capture activity at high video quality, even in low light.
 							</p>
 						</div>
 
 						<div class="feature-list">
-							<ion-icon class="feature-icon" name="call-outline"></ion-icon>
-							<p class="feature-title">Are</p>
-							<p class="feature-text">
-								It’s what makes us exciting,
-								different, and special. Never
-								miss another opportunity.
-						</p>
-						</div>
-
-						<div class="feature-list">
-							<ion-icon class="feature-icon" name="bluetooth-outline"></ion-icon>
-							<p class="feature-title">So-so</p>
-							<p class="feature-text">
-								We understand that everyone
-								needs to share their precious
-								memories and files
+							<ion-icon class="feature-icon" name="body"></ion-icon>
+							<p class="heading-tertiary color-header-main">AI Motion</p>
+							<p class="main-text color-main">
+								Save time and space. Observe only the frames in which movement was found.
 							</p>
 						</div>
 
 						<div class="feature-list">
-							<ion-icon class="feature-icon" name="cloud-download-outline"></ion-icon>
-							<p class="feature-title">Secured</p>
-							<p class="feature-text">
-								So join our community today
-								and be. Always Secure in the
-								trust we have you.
+							<ion-icon class="feature-icon" name="cloudy"></ion-icon>
+							<p class="heading-tertiary color-header-main">Cloud Storage</p>
+							<p class="main-text color-main">
+								Transfer footage online immediately, in case anything happens to your hardware.
+							</p>
+						</div>
+
+						<div class="feature-list">
+							<ion-icon class="feature-icon" name="code-download"></ion-icon>
+
+							<p class="heading-tertiary color-header-main">Remote</p>
+							<p class="main-text color-main">
+								Access your live or old CCTV footage anytime with our secure online cloud storage plans.
 							</p>
 						</div>
 
@@ -206,8 +204,8 @@
 						<div class="mobile-header-container">
 
 							<h2 class="heading-secondary">Complete control monitoring at your fingertips.</h2>
-							<h2 class="heading-secondary">Every time, everywhere.</h2>
-							<span class="sub-heading">Mobile</span>
+							<h2 class="heading-secondary main-heading-bot">Every time, everywhere.</h2>
+							<span class="sub-heading color-header-main">Mobile</span>
 
 						</div>
 
@@ -233,389 +231,405 @@
 			</section>
 			<!-- end of mobile feature-section -->
 
-		<!-- ----------------------------------------------------------------------------------- -->
-		<!-- Subscription - Pricing Section -->
-		<section class="sub-pricing-section">
+			<!-- ----------------------------------------------------------------------------------- -->
+			<!-- Subscription - Pricing Section -->
+			<section id="price" class="sub-pricing-section">
 
-			<!-- full width 1344px -->
-			<!-- header for plans-sub -->
-			<div class="container">
+				<!-- full width 1344px -->
+				<!-- header for plans-sub -->
+				<div class="container">
+					<h2 class="heading-secondary main-heading-bot">Smart pricing designed for you</h2>
 
-				<h2 class="heading-secondary">We're cheap right</h2>
-				<h2 class="heading-secondary">Check our pricing</h2>
-
-				<span class="sub-heading">Pricing/Subscription</span>
-
-			</div>
-
-			<!-- container for three columns plan/subs -->
-			<!-- full-width 1344px -->
-			<div class="price-section-flex-container">
-
-				<!-- col 1 - plan pricing 1 -->
-				<div class="sub-price-content">
-
-					<!-- plan title -->
-					<p class="sub-price-title heading-tertiary">Basic</p>
-
-					<!-- plan description / price -->
-					<div class="sub-price-tag">
-						<span>Free</span>
-					</div>
-
-
-					<div class="sub-price-tag-sp">
-						<span>Hardware Only</span>
-					</div>
-
-					<!-- plan benefits -->
-					<ul class="sub-price-attributes">
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>24 hours recording</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>Online Account</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>Storage access</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>No monthly fee</span>
-						</li>
-
-					</ul>
+					<span class="sub-heading color-header-main">Pricing/Subscription</span>
 
 				</div>
 
-				<!-- col 2 - plan pricing 2 -->
-				<div class="sub-price-content">
+				<!-- container for three columns plan/subs -->
+				<!-- full-width 1344px -->
+				<div class="pricing-container price-subs-content price-subs-container">
 
-					<!-- plan title -->
-					<p class="sub-price-title heading-tertiary">Regular</p>
+					<!-- col 1 - plan pricing 1 -->
+					<div class="sub-plan-content">
 
-					<!-- plan description / price -->
-					<div class="sub-price-tag">
-						<span>Monthly</span>
-					</div>
+						<!-- plan title -->
+						<h3 class="sub-price-title">Device Only</h3>
 
-					<div class="sub-price-tag-sp">
-						<span>$0.00 / Monthly</span>
-					</div>
-
-					<!-- plan benefits -->
-					<ul class="sub-price-attributes">
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>24 hours recording</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>Online Account</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>Storage access</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>No monthly fee</span>
-						</li>
-
-					</ul>
-
-				</div>
-
-				<!-- col 3 - plan pricing 3 -->
-				<div class="sub-price-content">
-
-					<!-- plan title -->
-					<p class="sub-price-title heading-tertiary">Pro</p>
-
-					<!-- plan description / price -->
-					<div class="sub-price-tag">
-						<span class="sub-price-name-tag">Annual</span>
-					</div>
-
-					<div class="sub-price-tag-sp">
-						<span>$0.00 / Year</span>
-					</div>
-					<!-- plan benefits -->
-					<ul class="sub-price-attributes">
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>24 hours recording</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>Online Account</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>Storage access</span>
-						</li>
-
-						<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
-							<span>No monthly fee</span>
-						</li>
-
-					</ul>
-
-				</div>
-
-			</div>
-			<!-- end of plan-subs-container -->
-		</section>
-		<!-- end of sub-pricing-section -->
-
-		<!-- ----------------------------------------------------------------------------------- -->
-		<!-- Product Section -->
-		<section class="product-section">
-			<!-- Full width of 1344px - about us header -->
-			<div class="container">
-				<h2 class="heading-secondary">Meet the product.</h2>
-				<h2 class="heading-secondary">The only one.</h2>
-			</div>
-
-			<div class="section-flex-container">
-
-				<span class="sub-heading-i">Product</span>
-				<div class="main-col-width">
-					<div class="main-col-content-flex">
-
-						<p class="main-text flex-col-400">
-							Model Type - 007
-							your brand and tell the story, building anticipation for
-							what is coming up next.
-						</p>
-
-						<p class="main-text flex-col-400">
-							Our apple-shaped sugar scrub exfoliates skin with the delicious,
-							before immersing you in moisturizing, delicate application of the
-							Feel the glow from deep within your skin.
-						</p>
-
-					</div>
-				</div>
-			</div>
-			<!-- end of section-flex-container -->
-
-			<div class="feature-product-container">
-
-				<div class="feature-product-container-flex main-col-width">
-					<div class="feature-product">
-						<img src="img/product-img-2.png" alt="Feature Product" class="feature-product-img" />
-					</div>
-
-				</div>
-
-				<div class="product-cta">
-					<ion-icon class="icon-cta" name="chevron-forward-outline"></ion-icon>
-					<a href="#" class="link-btn-cta">More Info</a>
-				</div>
-
-			</div>
-
-		</section>
-		<!-- end of product-section -->
-
-		<!-- ----------------------------------------------------------------------------------- -->
-		<!-- faqs-section -->
-		<section class="faqs-section">
-			<div class="container">
-				<h2 class="heading-secondary">Do you have any questions?</h2>
-				<h2 class="heading-secondary">Here are some guide</h2>
-				<span class="sub-heading">FAQS</span>
-			</div>
-			<div class="faqs-section-container container">
-				<!-- question-1 -->
-				<div class="faqs-accordion-item" id="faqs-question-1">
-					<a class="faqs-accordion-link" href="#faqs-question-1">
-						<div class="faqs-question">
-							<h3 class="heading-tertiary">What is the type of my camera?</h3>
-						</div>
-						<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
-						<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
-					</a>
-					<div class="faqs-answer">
-						<p>High Definition Cameras are capable of capturing high-definition videos and photographs. HD cameras are often used in security applications where resolution is critical. High definition video provides much greater detail than standard definition.</p>
-					</div>
-					<hr>
-				</div>
-				<!-- question-2 -->
-				<div class="faqs-accordion-item" id="faqs-question-2">
-
-					<a class="faqs-accordion-link" href="#faqs-question-2">
-						<div class="faqs-question">
-							<h3 class="heading-tertiary">How do I setup my camera?</h3>
-						</div>
-						<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
-						<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
-					</a>
-
-					<div class="faqs-answer">
-						<p>White balance adjusts the color temperature of the image by adjusting the colors in the scene. Most cameras have presets for different types of lights, but you can also set white balance manually.</p>
-					</div>
-					<hr>
-				</div>
-				<!-- question-3 -->
-				<div class="faqs-accordion-item" id="faqs-question-3">
-
-					<a class="faqs-accordion-link" href="#faqs-question-3">
-						<div class="faqs-question">
-							<h3 class="heading-tertiary">Do I need to charge it?</h3>
-						</div>
-						<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
-						<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
-					</a>
-
-					<div class="faqs-answer">
-						<p>The first thing you should do is check the battery level indicator. This will let you know how much juice is left in the battery. A fully charged battery should read 100% full. If the battery reads less than 100%, then you need to charge it. You can either charge it at home or take it to a vape shop to get it recharged.</p>
-					</div>
-					<hr>
-				</div>
-				<!-- question-4 -->
-				<div class="faqs-accordion-item" id="faqs-question-4">
-
-					<a class="faqs-accordion-link" href="#faqs-question-4">
-						<div class="faqs-question">
-							<h3 class="heading-tertiary">Do I need to buy anything else to setup my camera?</h3>
-						</div>
-						<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
-						<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
-					</a>
-
-					<div class="faqs-answer">
-						<p>To protect your lens, you'll want to invest in a lens cap. If you don't have one, you can use tape or even paper bags to keep dirt out of your lens.</p>
-					</div>
-					<hr>
-				</div>
-				<!-- question-5 -->
-				<div class="faqs-accordion-item" id="faqs-question-5">
-
-					<a class="faqs-accordion-link" href="#faqs-question-5">
-						<div class="faqs-question">
-							<h3 class="heading-tertiary">This will last long?</h3>
-						</div>
-						<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
-						<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
-					</a>
-
-					<div class="faqs-answer">
-						<p> You can always rely on brand for quality products that lasts. We create products that will transform the way you live, and leave the world a better place.</p>
-					</div>
-					<hr>
-				</div>
-				<div class="faqs-cta">
-					<ion-icon class="icon-cta" name="chevron-forward-outline"></ion-icon>
-					<a href="#" class="link-btn-cta">More Faqs</a>
-				</div>
-
-			</div>
-			<!-- end of faqs-section-container -->
-		  </section>
-		  <!-- end of faqs-section -->
-
-		  <!-- ----------------------------------------------------------------------------------- -->
-		  <!-- contact-us-section -->
-		  <section class="contact-us-section">
-			<div class="container">
-				<h2 class="heading-secondary">Can't find the answer?</h2>
-				<h2 class="heading-secondary">Don't worry</h2>
-			</div>
-
-			<div class="section-flex-container">
-
-				<span class="sub-heading-i">Contact Us</span>
-
-				<div class="main-col-width">
-
-					<div class="main-col-content-flex">
-
-						<div class="contact-us-phone flex-col-400">
-							<ion-icon class="contact-icon" name="mail-outline"></ion-icon>
-							<h3 class="heading-secondary">Phone</h3>
-							<p class="contact-us-title">1-800-DTECTR</p>
-							<p class="contact-us-description">We are open from Monday - Friday.</p>
+						<!-- plan description / price -->
+						<div class="sub-plan-price">
+							<p>One time payment</p>
+							<span>$99.99</span>
 						</div>
 
-						<div class="contact-us-email flex-col-400">
-							<ion-icon class="contact-icon" name="call-outline"></ion-icon>
-							<h3 class="heading-secondary">Email</h3>
-							<p class="contact-us-title">dtectr@support.com</p>
-							<p class="contact-us-description">We'll get back to you within 24hours.</p>
+						<!-- plan benefits -->
+						<div class="sub-price-attributes">
+							<ul>
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>24 hours recording access</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Local storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Custom cloud transfer storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="close-outline"></ion-icon>
+									<span>Up to 100GB cloud storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="close-outline"></ion-icon>
+									<span>Up to 30 days recording!</span>
+								</li>
+							</ul>
 						</div>
 
 					</div>
-					<!-- end of contact-us-content -->
-				</div>
-			</div>
-			<!-- end of container -->
 
-		  </section>
-		</main>
-		<!-- end-of-main -->
-		<footer>
-			<div class="footer-section-flex">
-				<div class="footer-first-column">
-					<div>
-						<h3 class="tertiary-sub-heading">DTECTR</h3>
-						<p class="secondary-text">IP cameras are generally cheaper than network cameras,
-							however they require additional equipment to connect them
-							to the internet. If you plan on connecting your camera to the internet
-						</p>
+					<!-- col 2 - plan pricing 2 -->
+					<div class="sub-plan-content">
+
+						<!-- plan title -->
+						<h3 class="sub-price-title">Subscription</h3>
+
+						<!-- plan description / price -->
+						<div class="sub-plan-price">
+							<p>Annual</p>
+							<span>Plus $99.99</span>
+						</div>
+
+						<!-- plan benefits -->
+						<div class="sub-price-attributes">
+							<ul>
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>24 hours recording access</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Local storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Custom cloud transfer storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Up to 100GB cloud storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Up to 30 days recording!</span>
+								</li>
+							</ul>
+						</div>
 					</div>
 
-					<div>
-						<ion-icon class="icon-cta-social-media" name="logo-facebook"></ion-icon>
-						<ion-icon class="icon-cta-social-media" name="logo-twitter"></ion-icon>
-						<ion-icon class="icon-cta-social-media" name="logo-linkedin"></ion-icon>
-						<ion-icon class="icon-cta-social-media" name="logo-instagram"></ion-icon>
+					<!-- col 3 - plan pricing 3 -->
+					<div class="sub-plan-content">
+
+						<!-- plan title -->
+						<h3 class="sub-price-title">Storage</h3>
+
+						<!-- plan description / price -->
+						<div class="sub-plan-price">
+							<p>Annual</p>
+							<span>$99.99 / Year<span>
+						</div>
+
+						<!-- plan benefits -->
+						<div class="sub-price-attributes">
+							<ul>
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>30 Days online storage access</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Up to 100 GB cloud storage</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Strong Encryption</span>
+								</li>
+
+								<li class="sub-price-each-attribute"><ion-icon class="sub-price-icon" name="checkmark-outline"></ion-icon>
+									<span>Customize storage plan</span>
+								</li>
+
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- end of plan-subs-container -->
+			</section>
+			<!-- end of sub-pricing-section -->
+
+			<!-- ----------------------------------------------------------------------------------- -->
+			<!-- Product Section -->
+			<section id="product" class="product-section">
+				<!-- Full width of 1344px - about us header -->
+				<div class="container">
+					<h2 class="heading-secondary">Meet the one</h2>
+					<h2 class="heading-secondary">and more to come</h2>
+				</div>
+
+
+				<div class="product-container product-content section-flex-container">
+
+					<span class="sub-heading color-header-main">Product</span>
+					<div class="main-col-width">
+						<div class="main-col-content-flex">
+
+							<p class="main-text color-main flex-col-400">
+								Dtecter Camera Model 001
+
+							</p>
+
+							<p class="main-text color-main flex-col-400">
+								Infrared night vision technology, with thermal imaging and AI identification technology. It can identify movement up to 50 meters and annotate human faces up to 20 meters.
+							</p>
+
+						</div>
+					</div>
+
+				</div>
+				<!-- end of section-flex-container -->
+
+				<div class="product-container-flex">
+
+					<div class="product-content-flex">
+						<div class="">
+							<div class="feature-product">
+								<img src="img/product-img-2.png" alt="Feature Product" class="feature-product-img" />
+							</div>
+						</div>
+
+					</div>
+					<div class="product-cta">
+						<ion-icon class="icon-cta" name="chevron-forward-outline"></ion-icon>
+						<a href="product.html" class="link-btn-cta">More Info</a>
+					</div>
+
+				</div>
+
+			</section>
+			<!-- end of product-section -->
+
+			<!-- ----------------------------------------------------------------------------------- -->
+			<!-- faqs-section -->
+			<section id="faqs" class="faqs-section">
+				<div class="container">
+					<h2 class="heading-secondary">Do you have any questions?</h2>
+					<h2 class="heading-secondary main-heading-bot">We have some answers</h2>
+					<span class="sub-heading color-header-main">FAQS</span>
+				</div>
+
+				<div class="faqs-section-container">
+					<div class="faqs-section-flex">
+						<div class="faqs-column">
+						<!-- question-1 -->
+							<div class="faqs-accordion-item" id="faqs-question-1">
+								<a class="faqs-accordion-link" href="#faqs-question-1">
+									<div class="faqs-question">
+										<h3 class="tertiary-text">What makes Dtecter’s security cameras different?</h3>
+									</div>
+									<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
+									<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
+								</a>
+								<div class="faqs-answer">
+									<p class="secondary-main-text color-main">The Camera Model 001 blends the best of today’s hardware and software technology. With a mix of high-definition night vision, motion detection and artificial intelligence, we deliver more than just security footage.
+									<br>
+									When rewatching your footage, you can focus only on scenes where activity, movement or people were detected in the frame. Better yet, configure your settings to only retain relevant frames.
+									</p>
+								</div>
+								<hr>
+							</div>
+							<!-- question-2 -->
+							<div class="faqs-accordion-item" id="faqs-question-2">
+
+								<a class="faqs-accordion-link" href="#faqs-question-2">
+									<div class="faqs-question">
+										<h3 class="tertiary-text">What does the subscription include?</h3>
+									</div>
+									<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
+									<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
+								</a>
+
+								<div class="faqs-answer">
+									<p class="secondary-main-text color-main">The monthly storage subscription includes a seamless, direct-to-cloud transfer and storage of your camera footage of up to 50 gigabytes. This offer includes regularly scheduled backups of your data on our secure servers, so you’ll never have to worry about losing your footage.
+									</p>
+								</div>
+								<hr>
+							</div>
+							<!-- question-3 -->
+							<div class="faqs-accordion-item" id="faqs-question-3">
+
+								<a class="faqs-accordion-link" href="#faqs-question-3">
+									<div class="faqs-question">
+										<h3 class="tertiary-text">Will you be expanding your product or storage offerings</h3>
+									</div>
+									<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
+									<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
+								</a>
+
+								<div class="faqs-answer">
+									<p class="secondary-main-text color-main">Absolutely! We believe in perfecting what we currently offer without every compromising your privacy, security or convenience.
+
+										In the future, we will release other camera models with equally outstanding technology, along with more flexible subscription options for online storage and privacy.
+
+										If you’re a business of any size, you may contact us below to learn of our plans for business-tailored security solutions.
+
+										</p>
+								</div>
+								<hr>
+							</div>
+							<!-- question-4 -->
+							<div class="faqs-accordion-item" id="faqs-question-4">
+
+								<a class="faqs-accordion-link" href="#faqs-question-4">
+									<div class="faqs-question">
+										<h3 class="tertiary-text">Do I need to buy anything else to setup my camera?</h3>
+									</div>
+									<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
+									<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
+								</a>
+
+								<div class="faqs-answer">
+									<p class="secondary-main-text color-main">To protect your lens, you'll want to invest in a lens cap. If you don't have one, you can use tape or even paper bags to keep dirt out of your lens.</p>
+								</div>
+								<hr>
+							</div>
+							<!-- question-5 -->
+							<div class="faqs-accordion-item" id="faqs-question-5">
+
+								<a class="faqs-accordion-link" href="#faqs-question-5">
+									<div class="faqs-question">
+										<h3 class="tertiary-text">This will last long?</h3>
+									</div>
+									<ion-icon class="faqs-icon faqs-icon-arrow-up" name="arrow-forward"></ion-icon>
+									<ion-icon class="faqs-icon faqs-icon-arrow-down" name="arrow-down"></ion-icon>
+								</a>
+
+								<div class="faqs-answer">
+									<p class="secondary-main-text color-main"> You can always rely on brand for quality products that lasts. We create products that will transform the way you live, and leave the world a better place.</p>
+								</div>
+								<hr>
+							</div>
+							<div class="faqs-cta">
+								<ion-icon class="icon-cta" name="chevron-forward-outline"></ion-icon>
+								<a href="#" class="link-btn-cta">More Faqs</a>
+							</div>
+						</div>
+					</div>
+					<!-- end of faqs-section-container -->
+				</div>
+
+			</section>
+			<!-- end of faqs-section -->
+
+			<!-- ----------------------------------------------------------------------------------- -->
+			<!-- contact-us-section -->
+			<section id="contacts" class="contact-us-section">
+				<div class="container">
+					<h2 class="heading-secondary">Can't find the answer?</h2>
+					<h2 class="heading-secondary">Don't worry</h2>
+				</div>
+
+				<div class="section-flex-container">
+					<span class="sub-heading color-header-main">Contact Us</span>
+
+					<div class="contact-us-content main-col-width">
+
+						<div class="main-col-content-flex">
+
+							<div class="contact-us-phone flex-col-400">
+								<ion-icon class="contact-icon" name="mail-outline"></ion-icon>
+								<h3 class="heading-secondary">Phone</h3>
+								<p class="contact-us-title">1-800-DTECTR</p>
+								<p class="contact-us-description">We are open from Monday - Friday.</p>
+							</div>
+
+							<div class="contact-us-email flex-col-400">
+								<ion-icon class="contact-icon" name="call-outline"></ion-icon>
+								<h3 class="heading-secondary">Email</h3>
+								<p class="contact-us-title">dtectr@support.com</p>
+								<p class="contact-us-description">We'll get back to you within 24hours.</p>
+							</div>
+
+						</div>
+						<!-- end of contact-us-content -->
 					</div>
 				</div>
-				<div class="footer-second-column">
-					<h3 class="tertiary-sub-heading">Sitemeap</h3>
-					<ul class="secondary-text">
-						<li>Home</li>
-						<li>About</li>
-						<li>Features</li>
-						<li>Mobile</li>
-						<li>Pricing</li>
-						<li>Product</li>
-						<li>Faqs</li>
-					</ul>
-				</div>
-				<div class="footer-third-column">
-					<div>
-						<h3 class="tertiary-sub-heading">News</h3>
-						<span class="secondary-text">Right on your inbox!</span>
-						<form action="/action_page.php">
-							<input type="text" id="fname" name="firstname" placeholder="Enter Email">
-						</form>
-						<input type="submit" value="Sign Up">
+				<!-- end of container -->
+
+			</section>
+			</main>
+			<!-- end-of-main -->
+
+			<footer>
+				<div class="footer-section-flex main-heading-bot">
+					<div class="footer-first-column">
+						<div>
+							<h3 class="tertiary-sub-heading color-header-main">DTECTR</h3>
+							<p class="default-text">IP cameras are generally cheaper than network cameras,
+								however they require additional equipment to connect them
+								to the internet. If you plan on connecting your camera to the internet
+							</p>
+						</div>
+
+						<div>
+							<ion-icon class="icon-cta-social-media" name="logo-facebook"></ion-icon>
+							<ion-icon class="icon-cta-social-media" name="logo-twitter"></ion-icon>
+							<ion-icon class="icon-cta-social-media" name="logo-linkedin"></ion-icon>
+							<ion-icon class="icon-cta-social-media" name="logo-instagram"></ion-icon>
+						</div>
 					</div>
-					<div>
-						<h3 class="tertiary-sub-heading">We're located at</h3>
-						<p class="secondary-text">3721 Clousson Road, Omaha Nebraska 68124</p>
+					<div class="footer-second-column">
+						<h3 class="tertiary-sub-heading color-header-main">Sitemeap</h3>
+						<ul class="default-text">
+							<li>Home</li>
+							<li>About</li>
+							<li>Features</li>
+							<li>Mobile</li>
+							<li>Pricing</li>
+							<li>Product</li>
+							<li>Faqs</li>
+						</ul>
+					</div>
+					<div class="footer-third-column">
+						<div class="email-subs">
+							<h3 class="tertiary-sub-heading color-header-main">News</h3>
+							<span class="default-text">Right on your inbox!</span>
+							<form action="/action_page.php">
+								<input type="text" id="fname" name="firstname" placeholder="Enter Email">
+							</form>
+							<input type="submit" value="Sign Up">
+						</div>
+
+						<div>
+							<h3 class="tertiary-sub-heading color-header-main">We're located at</h3>
+							<p class="default-text">3721 Clousson Road, Omaha Nebraska 68124</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<hr>
-			<div class="copyright-footer">
-				<div><h3 class="sub-heading">All Rights Reserved &copy; DTECTR 2o22
-				</h3></div>
-				<div class="extras-c">
-				<p class="sub-heading">Disclaimer</p>
-				<p class="sub-heading">Privacy Policy</p>
-				<p class="sub-heading">Terms of Use</p>
+
+				<div class="copyright-footer">
+					<div><h3 class="sub-heading color-header-main">All Rights Reserved &copy; DTECTR 2o22
+					</h3></div>
+					<div class="extras-c">
+					<p class="sub-heading color-header-main">Disclaimer</p>
+					<p class="sub-heading color-header-main">Privacy Policy</p>
+					<p class="sub-heading color-header-main">Terms of Use</p>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+
 		<!-- Adding JS script -->
 		<!-- ion-icon installation -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 		</div>

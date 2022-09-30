@@ -88,16 +88,11 @@ html:focus-within {
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 html {
 	font-size: 62.5%;
-	/* We'll use "rem" for responsive */
-	/* Our default size for font is 10px so it's easier to calculate to REM */
-	/* REM is equal to VALUE unit of MAIN parent size which is 62.6% = 16px */
-	/* So basically 1 REM is = to 16px */
-	/* Example, if you want to use 20px for the size, just divide it to 10px = REM is 2 */
-	/* You will be using 2rem instead of 20px */
 }
 
 body {
@@ -143,11 +138,12 @@ ul, li, a {
 .container {
 	/* 1344px divided by 10 */
 	max-width: 134.4rem;
+	padding: 0 4.8rem;
 	margin-inline: auto;
 }
 
 .section-flex-container {
-    /* border: 1px solid #De3256; */
+	padding: 0 4.8rem;
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
@@ -161,7 +157,7 @@ ul, li, a {
 
 .main-col-content-flex {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 
@@ -169,74 +165,111 @@ ul, li, a {
 	width: 41.6rem;
 }
 
-/* --- Headers */
+/* --- Headers / Fonts */
 
 .heading-primary,
 .heading-secondary,
-.heading-tertiary {
+.heading-tertiary,
+.heading-sub-primary {
 	font-weight: 700;
 	color: #051A32;
 	letter-spacing: -0.5px;
 }
 
 .heading-primary {
-	font-size: 4.2rem;
+	font-size: 4.8rem;
 	line-height: 1.05;
-	padding-top: 10rem;
-	margin-bottom: 3.2rem;
+}
+
+.heading-sub-primary {
+	font-size: 2.4rem;
+	line-height: 1.05;
 	font-weight: 700;
 }
 
 .heading-secondary {
-	font-size: 3rem;
+	font-size: 3.2rem;
 	line-height: 1.2;
 	font-weight: 500;
 }
 
 .heading-tertiary {
-	font-size: 3.0rem;
+	font-size: 2.4rem;
 	line-height: 1.2;
-	margin: 3.4rem 0 1rem 0;
+	font-weight: 500;
+	padding: 1.6rem 0;
 }
+
+/* -------------------- */
+
+.color-main {
+	color: #051A32;
+}
+
+.color-header-main {
+	color: #De3256;
+}
+
+/* -------------------- */
 
 .sub-heading {
 	font-size: 1.2rem;
 	font-weight: 500;
-	color: #De3256;
+	line-height: 1.5;
 	text-transform: uppercase;
 }
 
 .tertiary-sub-heading {
 	font-size: 2rem;
 	font-weight: 500;
-	color: #De3256;
 	text-transform: uppercase;
 	line-height: 1.5;
 	letter-spacing: 0.065rem;
 }
 
-.sub-heading-i {
-    width: 11.2rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #De3256;
-    text-transform: uppercase;
+.main-sub-heading {
+	margin-top: 1rem;
 }
+
+.main-heading-bot {
+	margin-bottom: 1rem;
+}
+
+.header-main-text {
+	font-size: 1.8rem;
+	line-height: 1.6;
+	letter-spacing: 0.025rem;
+	color: #051A32;
+}
+
+/* -------------------------- */
 
 .main-text {
-	color: #051A32;
 	font-size: 1.6rem;
 	line-height: 1.6;
-	letter-spacing: 0.075rem;
 	font-weight: 400;
+	letter-spacing: 0.095rem;
 }
 
-.secondary-text {
-	color: #F2F3F5;
+.secondary-main-text {
 	font-size: 1.4rem;
 	line-height: 1.7;
 	letter-spacing: 0.075rem;
 	font-weight: 400;
+}
+
+.tertiary-text {
+	font-size: 2.0rem;
+	font-weight: 400;
+	letter-spacing: 0.075rem;
+}
+
+.default-text {
+	color: #f2f3f5;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight: 400;
+	letter-spacing: 0.075rem;
 }
 
 /* --- Button */
@@ -276,10 +309,10 @@ ul, li, a {
 
 .icon-cta {
 	font-size: 2.4rem;
-	color: #De3256;
 }
 
 .icon-cta-social-media {
 	font-size: 2.8rem;
 	color: #De3256;
+	padding-right: 2rem;
 }
